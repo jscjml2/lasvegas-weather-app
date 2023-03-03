@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/vegasweather-react-app/static/css/main.36e8e3ec.css",
-    "main.js": "/vegasweather-react-app/static/js/main.5a3fcc5a.js",
+    "main.css": "/vegasweather-react-app/static/css/main.4e273790.css",
+    "main.js": "/vegasweather-react-app/static/js/main.c43f949d.js",
     "static/media/vegasnight.jpg": "/vegasweather-react-app/static/media/vegasnight.7ef887d05943d901a0b7.jpg",
     "index.html": "/vegasweather-react-app/index.html",
-    "main.36e8e3ec.css.map": "/vegasweather-react-app/static/css/main.36e8e3ec.css.map",
-    "main.5a3fcc5a.js.map": "/vegasweather-react-app/static/js/main.5a3fcc5a.js.map"
+    "main.4e273790.css.map": "/vegasweather-react-app/static/css/main.4e273790.css.map",
+    "main.c43f949d.js.map": "/vegasweather-react-app/static/js/main.c43f949d.js.map"
   },
   "entrypoints": [
-    "static/css/main.36e8e3ec.css",
-    "static/js/main.5a3fcc5a.js"
+    "static/css/main.4e273790.css",
+    "static/js/main.c43f949d.js"
   ]
 }

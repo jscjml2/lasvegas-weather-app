@@ -31,14 +31,6 @@ function App() {
   // now we can just use {s} inside of the html stuff to call the variable.
 ////////////////////////////////////////////////////
 
-{/* <h2 className='cityname'>Las Vegas, NV</h2>
-<div className="description">
-  <h3>Sunny</h3>
-  <img src="/icons/01d.png" alt="" />
-</div>
-<div className="temperature">72°F</div> */}
-
-
   // if(product){
   return (
     <div className="weather-wrapper">

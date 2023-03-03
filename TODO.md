@@ -1,0 +1,3 @@
+# TODO: 
+- Grab the stuff from the weather API and put it into the fields dynamically...
+- Implement the weather conditions dynamically. Use this for reference... https://openweathermap.org/weather-conditions

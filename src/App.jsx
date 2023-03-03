@@ -79,7 +79,8 @@ function App() {
       </div>
 
       <div className="footer">
-        {repo.main ? <p>Data was fetched at: {timefetched}</p> : null}
+        <p className='timenote'>All times are in PST.</p>
+        {repo.main ? <p className='fetchnote'>Data was fetched at: {timefetched}</p> : null}
       </div>
 
     </div>

@@ -7,6 +7,8 @@
     color: white;
     /* margin: 20px auto 0 auto;
     padding: 0 20px 20px 20px; */
+    position: relative;
+
 
     background: url("./icons/vegasnight.jpg") no-repeat center center/cover;
 }
@@ -98,8 +100,19 @@
 }
 
 .footer {
-    align-self: flex-end;
-    text-align: end;
-    margin-top: 65px;
-    margin-right: 10px;
+    /* align-self: flex-end;
+    text-align: end; */
+    /* margin-top: 65px;
+    margin-right: 10px; */
+
+    position: absolute;
+    bottom: 0px;
+}
+
+.timenote {
+    margin-bottom: 0px;
+}
+
+.fetchnote {
+    margin-top: 0px;
 }

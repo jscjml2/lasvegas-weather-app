@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/vegasweather-react-app/static/css/main.36e8e3ec.css",
+    "main.js": "/vegasweather-react-app/static/js/main.1f2fd8e4.js",
+    "static/media/vegasnight.jpg": "/vegasweather-react-app/static/media/vegasnight.7ef887d05943d901a0b7.jpg",
+    "index.html": "/vegasweather-react-app/index.html",
+    "main.36e8e3ec.css.map": "/vegasweather-react-app/static/css/main.36e8e3ec.css.map",
+    "main.1f2fd8e4.js.map": "/vegasweather-react-app/static/js/main.1f2fd8e4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36e8e3ec.css",
+    "static/js/main.1f2fd8e4.js"
+  ]
+}

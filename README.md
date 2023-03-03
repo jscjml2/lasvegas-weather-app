@@ -1,7 +1,7 @@
 # vegasweather-react-app
 
-This is a react application for made to display the weather of Las Vegas, Nevada. It was designed to be placed into a website as a widget/component... and interfaces with an API for most of the data.
+This is a react application for made to display the weather of Las Vegas, Nevada. It was designed to be placed into a website as a widget/component... and interfaces with the OpenWeatherMap API to retrieve most of its data.
 
-Uses OpenWeatherMap API to fetch its data.
+Deployed Website: https://jscjml2.github.io/vegasweather-react-app/
 
 ![alt text](./docs/picture.png)

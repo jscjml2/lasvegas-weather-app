@@ -1,0 +1,13 @@
+Temperature (Fahrenheit)
+
+"dt" (this is the time that we fetched the data... i.e: fetched at 2:30pm)
+Sunrise Time (This is in Unix... we have to convert it to normal time)
+Sunset Time
+
+"temp" = actual temperature forecast
+"feels_like" = what it actually feels like outside
+"humidity" = humidity obv
+
+
+Description (Clear, Cloudy, etc)
+Feels Like (temperature)

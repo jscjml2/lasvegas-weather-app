@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+.weather-wrapper {
+    width: 500px;
+    height: 500px;
+    border-radius: 6px;
+    border: 1px solid red;
+    /* background-color: #333; */
+    color: white;
+    margin: 20px auto 0 auto;
+    padding: 0 20px 20px 20px;
+
+    background: url("../public/icons/vegasnight.jpg") no-repeat center center/cover;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.top{
+    margin: 30px;
+    /* border: 1px solid purple; */
+    background: rgba(0, 0, 0, 0.3);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.cityname{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+    font-size: 40px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 24px;
 }
 
-.App-link {
-  color: #61dafb;
+.text{
+    padding-left: 0px;
+}
+.temperature {
+    display: flex;
+    justify-content: center;
+
+    font-size: 64px;
+    font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.middle {
+    /* border: 1px solid brown; */
+
+    background: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+    font-size: 20px;
+
+    margin-bottom: 40px;
+}
+
+.middleparagraph {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.bottom {
+    /* border: 1px solid brown; */
+
+    background: rgba(0, 0, 0, 0.6);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+
+    font-size: 20px;
+}
+
+.bottomparagraph {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.footer {
+    align-self: flex-end;
+    text-align: end;
+    margin-top: 50px;
 }

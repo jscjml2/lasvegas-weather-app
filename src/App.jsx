@@ -1,6 +1,7 @@
 import './App.css';
 import axios from 'axios'
 import React, { useState, useEffect } from 'react'
+// import logo from '../icons'
 
 function App() {
   // const url = 'https://api.openweathermap.org/data/3.0/onecall?lat=36.19&lon=-115.18&exclude=minutely,alerts&appid=d961abc9511e150cf4edc4ace5e9b94d&units=imperial'
@@ -47,7 +48,7 @@ function App() {
       <div className="top">
         <div className="cityname">Las Vegas, NV</div>
         <div className="description">
-          {repo.weather ? <img src={`/icons/${repo.weather[0].icon}.png`} alt="weather" /> : null}
+          {repo.weather ? <img src={require(`./icons/${repo.weather[0].icon}.png`)} alt="" /> : null}
           <div className="text">
             {repo.weather ? <p>{repo.weather[0].main}</p> : null}
           </div>

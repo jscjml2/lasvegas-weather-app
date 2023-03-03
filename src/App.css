@@ -2,17 +2,17 @@
     width: 500px;
     height: 500px;
     border-radius: 6px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     /* background-color: #333; */
     color: white;
-    margin: 20px auto 0 auto;
-    padding: 0 20px 20px 20px;
+    /* margin: 20px auto 0 auto;
+    padding: 0 20px 20px 20px; */
 
     background: url("../public/icons/vegasnight.jpg") no-repeat center center/cover;
 }
 
 .top{
-    margin: 30px;
+    /* margin: 30px; */
     /* border: 1px solid purple; */
     background: rgba(0, 0, 0, 0.3);
 }
@@ -20,7 +20,8 @@
 .cityname{
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
+    padding-top: 30px;
 
     font-size: 40px;
 }
@@ -40,7 +41,7 @@
     display: flex;
     justify-content: center;
 
-    font-size: 64px;
+    font-size: 84px;
     font-weight: bold;
 }
 
@@ -59,9 +60,16 @@
     margin-bottom: 40px;
 }
 
+.middleparagraph1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .middleparagraph {
     margin-top: 0px;
     margin-bottom: 0px;
+
+    font-weight: bold;
 }
 
 .bottom {
@@ -77,13 +85,21 @@
     font-size: 20px;
 }
 
+.bottomparagraph1 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
 .bottomparagraph {
     margin-top: 0px;
     margin-bottom: 0px;
+
+    font-weight: bold;
 }
 
 .footer {
     align-self: flex-end;
     text-align: end;
-    margin-top: 50px;
+    margin-top: 65px;
+    margin-right: 10px;
 }
